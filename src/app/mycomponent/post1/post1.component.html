@@ -1,0 +1,29 @@
+<p>post1 works!</p>
+
+
+
+<!-- <h2>We are tring {{ posts }}   dscs</h2> -->
+
+
+
+
+
+
+<table border="1">
+ <thead>
+    <tr>
+      <th>ID</th>
+      <th>NAME</th>
+      <th>education</th>
+    </tr>
+</thead>
+    <tbody>
+    <tr *ngFor="let items of posts">
+        <td>nikhil</td>
+      <td >{{ items.id }}</td>
+      <td>{{ items.name }}</td>
+      <td>{{ items.education }}</td>
+    </tr>
+</tbody>
+
+  </table>
